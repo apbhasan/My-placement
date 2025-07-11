@@ -25,7 +25,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 0 150px;
-  padding: 50px 0;
+  padding: 100px 100px 100px 150px;
 }
 
 .nav-title {
@@ -317,6 +317,113 @@ nav ul li {
   object-fit: cover;
   margin-top: 30px;
 }
+
+.contact-section {
+  background-color: #f5f7ff;
+  padding: 100px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1140px;
+  gap: 100px;
+}
+
+.contact-heading h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 97px;
+  color: #000;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  max-width: 500px;
+}
+
+.contact-form label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  resize: none;
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.footer-section {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #ffffff;
+  width: 454px;
+  height: 104px;
+  display: center;
+}
+
+.footer-logo {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  color: #4e47ff;
+  margin: 0;
+}
+
+.footer-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #8987A1;
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.footer-links li a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #8987A1;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  color: #4e47ff;
+}
+
+
+
 
 
 
