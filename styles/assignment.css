@@ -1,0 +1,260 @@
+/* Font & Base Setup */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #4E47FF;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Banner Background */
+.header {
+  margin: 0;
+  padding: 0 0 0 0;
+  background-image: url('../Assignmentimg/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 150px;
+  padding: 50px 0;
+}
+
+.nav-title {
+  font-weight: 900;
+  font-size: 34px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+/* Banner Text + Button */
+.agency-high {
+  text-align: center;
+  margin: 309px 267.5px 237px 267.5px;
+  padding-bottom: 116px;
+}
+
+.agency-low {
+  font-family: "Raleway", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 37px;
+}
+
+.agency-low span {
+  display: block;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #4E47FF;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 48px;
+  width: 229px;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Action Preview Section */
+.action-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 220px;
+  margin: 116px 159px 116px 141px;
+  padding-bottom: 116px;
+}
+
+/* Text Block in Preview Section */
+.action-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+}
+
+.action-text h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+  margin: 0;
+}
+
+.action-text p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #252432;
+  opacity: 0.5;
+  max-width: 517px;
+  margin: 0;
+}
+
+/* Preview Image */
+.preview-image {
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
+
+.stats-box-light {
+  background-color: rgba(78, 71, 255, 0.1); /* #4E47FF with 10% opacity */
+  width: 1140px;
+  height: 306px;
+  border-radius: 24px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.stats-box-light h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #252432;
+  margin: 0 0 40px 0;
+}
+
+.stats-row-light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 158px;
+}
+
+.stat-light h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #4E47FF;
+  margin: 0;
+}
+
+.stat-light p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #252432;
+  margin: 10px 0 0 0;
+}
+
+.testimonial-section {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+  justify-content: flex;
+  align-items: center;
+  width: 1140px;
+  height: 342px;
+  
+}
+
+.testimonial-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 50px;
+}
+
+.testimonial-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background-color: white;
+  width: 366px;
+  height: 243px;
+  border-radius: 14px;
+  border: 1px solid #F2EDED;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+}
+
+.testimonial-card h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0;
+  color: #252432;
+}
+
+.testimonial-card p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #252432;
+  opacity: 0.8;
+  margin: 5px 0;
+}
+
+.review-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.review-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.review-name {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  color: #252432;
+}
+
+.review-date {
+  font-size: 12px;
+  margin: 0;
+  opacity: 0.6;
+}
+
