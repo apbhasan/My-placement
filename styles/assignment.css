@@ -10,12 +10,12 @@
 
 /* Header Banner Background */
 .header {
-  margin: 0;
-  padding: 0 0 0 0;
   background-image: url('../Assignmentimg/Hero-bg.png');
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  background-size: cover;
+  background-color: rgba(245,248,255,255);
+  
   
 }
 
@@ -274,6 +274,7 @@ nav ul li {
   padding: 71px 150px;
   box-sizing: border-box;
   margin: 0 auto;
+  margin-bottom: 92.23px;
 }
 
 .cta-content {
@@ -380,9 +381,6 @@ nav ul li {
   text-align: center;
   padding: 80px 20px;
   background-color: #ffffff;
-  width: 454px;
-  height: 104px;
-  display: center;
 }
 
 .footer-logo {
