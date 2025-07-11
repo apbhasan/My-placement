@@ -1,4 +1,4 @@
-/* Font & Base Setup */
+
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-/* Header Banner Background */
+
 .header {
   background-image: url('../Assignmentimg/Hero-bg.png');
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@
   
 }
 
-/* Navigation */
+
 nav {
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@ nav ul li {
   list-style: none;
 }
 
-/* Banner Text + Button */
+
 .agency-high {
   text-align: center;
   margin: 309px 267.5px 237px 267.5px;
@@ -56,7 +56,7 @@ nav ul li {
   display: block;
 }
 
-/* Button Styles */
+
 .btn-primary {
   background-color: #4E47FF;
   font-family: "Raleway", sans-serif;
@@ -76,7 +76,7 @@ nav ul li {
   color: white;
 }
 
-/* Action Preview Section */
+
 .action-preview {
   display: flex;
   align-items: center;
@@ -86,7 +86,7 @@ nav ul li {
   padding-bottom: 116px;
 }
 
-/* Text Block in Preview Section */
+
 .action-text {
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@ nav ul li {
   margin: 0;
 }
 
-/* Preview Image */
+
 .preview-image {
   height: 328px;
   width: 403px;
@@ -120,7 +120,7 @@ nav ul li {
 }
 
 .stats-box-light {
-  background-color: rgba(78, 71, 255, 0.1); /* #4E47FF with 10% opacity */
+  background-color: rgba(78, 71, 255, 0.1);
   width: 1140px;
   height: 306px;
   border-radius: 24px;
@@ -284,14 +284,14 @@ nav ul li {
   align-items: center;
   height: 100%;
   text-align: center;
-  gap: 20px; /* gap between .cta-text and image */
+  gap: 20px; 
 }
 
 .cta-text {
-  display: flex; /* ✅ this is the missing part */
+  display: flex; 
   flex-direction: column;
   align-items: center;
-  gap: 20px; /* ✅ gap between h3, p, button */
+  gap: 20px; 
 }
 
 .cta-text h3 {
